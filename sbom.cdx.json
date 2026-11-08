@@ -1,0 +1,291 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0b5f7723-ce46-524d-9093-2468b0a9fdeb",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:31:54Z",
+    "component": {
+      "type": "application",
+      "name": "K_PHYAGENT",
+      "version": "de8da45c91af",
+      "bom-ref": "pkg:generic/anticloud/K_PHYAGENT@de8da45c91af",
+      "purl": "pkg:generic/anticloud/K_PHYAGENT@de8da45c91af",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "de8da45c91af86bf236e4c4dad78b85d9b996f70"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/Genesis-Embodied-AI/Genesis.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": "unspecified",
+      "purl": "pkg:pypi/psutil",
+      "bom-ref": "pypi/psutil@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "quadrants",
+      "version": "==1.3.3",
+      "purl": "pkg:pypi/quadrants@1.3.3",
+      "bom-ref": "pypi/quadrants@==1.3.3"
+    },
+    {
+      "type": "library",
+      "name": "model_construct",
+      "version": "unspecified",
+      "purl": "pkg:pypi/model_construct",
+      "bom-ref": "pypi/model_construct@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.13.0",
+      "purl": "pkg:pypi/pydantic@2.13.0",
+      "bom-ref": "pypi/pydantic@>=2.13.0"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.26.4",
+      "purl": "pkg:pypi/numpy@1.26.4",
+      "bom-ref": "pypi/numpy@>=1.26.4"
+    },
+    {
+      "type": "library",
+      "name": "frozendict",
+      "version": "unspecified",
+      "purl": "pkg:pypi/frozendict",
+      "bom-ref": "pypi/frozendict@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "trimesh",
+      "version": ">=4.8.2",
+      "purl": "pkg:pypi/trimesh@4.8.2",
+      "bom-ref": "pypi/trimesh@>=4.8.2"
+    },
+    {
+      "type": "library",
+      "name": "xacro",
+      "version": "unspecified",
+      "purl": "pkg:pypi/xacro",
+      "bom-ref": "pypi/xacro@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libigl",
+      "version": "!=2.6.2",
+      "purl": "pkg:pypi/libigl@2.6.2",
+      "bom-ref": "pypi/libigl@!=2.6.2"
+    },
+    {
+      "type": "library",
+      "name": "py-cpuinfo",
+      "version": "unspecified",
+      "purl": "pkg:pypi/py-cpuinfo",
+      "bom-ref": "pypi/py-cpuinfo@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "mujoco",
+      "version": ">=3.2.5",
+      "purl": "pkg:pypi/mujoco@3.2.5",
+      "bom-ref": "pypi/mujoco@>=3.2.5"
+    },
+    {
+      "type": "library",
+      "name": "moviepy",
+      "version": ">=2.0.0",
+      "purl": "pkg:pypi/moviepy@2.0.0",
+      "bom-ref": "pypi/moviepy@>=2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "camera.start_recording",
+      "version": "unspecified",
+      "purl": "pkg:pypi/camera.start_recording",
+      "bom-ref": "pypi/camera.start_recording@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "VideoFile",
+      "version": "unspecified",
+      "purl": "pkg:pypi/videofile",
+      "bom-ref": "pypi/VideoFile@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "av",
+      "version": "unspecified",
+      "purl": "pkg:pypi/av",
+      "bom-ref": "pypi/av@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyglet",
+      "version": ">=1.5",
+      "purl": "pkg:pypi/pyglet@1.5",
+      "bom-ref": "pypi/pyglet@>=1.5"
+    },
+    {
+      "type": "library",
+      "name": "freetype-py",
+      "version": "unspecified",
+      "purl": "pkg:pypi/freetype-py",
+      "bom-ref": "pypi/freetype-py@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PyOpenGL",
+      "version": ">=3.1.4",
+      "purl": "pkg:pypi/pyopengl@3.1.4",
+      "bom-ref": "pypi/PyOpenGL@>=3.1.4"
+    },
+    {
+      "type": "library",
+      "name": "numba",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numba",
+      "bom-ref": "pypi/numba@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pymeshlab",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pymeshlab",
+      "bom-ref": "pypi/pymeshlab@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pycollada",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pycollada",
+      "bom-ref": "pypi/pycollada@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pygltflib",
+      "version": "==1.16.0",
+      "purl": "pkg:pypi/pygltflib@1.16.0",
+      "bom-ref": "pypi/pygltflib@==1.16.0"
+    },
+    {
+      "type": "library",
+      "name": "DracoPy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/dracopy",
+      "bom-ref": "pypi/DracoPy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tetgen",
+      "version": "==0.8.2",
+      "purl": "pkg:pypi/tetgen@0.8.2",
+      "bom-ref": "pypi/tetgen@==0.8.2"
+    },
+    {
+      "type": "library",
+      "name": "PyGEL3D",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pygel3d",
+      "bom-ref": "pypi/PyGEL3D@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "vtk",
+      "version": "unspecified",
+      "purl": "pkg:pypi/vtk",
+      "bom-ref": "pypi/vtk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Pillow",
+      "version": ">11.0",
+      "purl": "pkg:pypi/pillow@11.0",
+      "bom-ref": "pypi/Pillow@>11.0"
+    },
+    {
+      "type": "library",
+      "name": "opencv-python",
+      "version": "unspecified",
+      "purl": "pkg:pypi/opencv-python",
+      "bom-ref": "pypi/opencv-python@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-image",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scikit-image",
+      "bom-ref": "pypi/scikit-image@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "coacd",
+      "version": "unspecified",
+      "purl": "pkg:pypi/coacd",
+      "bom-ref": "pypi/coacd@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rtree",
+      "version": "unspecified",
+      "purl": "pkg:pypi/rtree",
+      "bom-ref": "pypi/rtree@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "z3-solver",
+      "version": "<4.15.5.0",
+      "purl": "pkg:pypi/z3-solver@4.15.5.0",
+      "bom-ref": "pypi/z3-solver@<4.15.5.0"
+    },
+    {
+      "type": "library",
+      "name": "OpenEXR",
+      "version": "unspecified",
+      "purl": "pkg:pypi/openexr",
+      "bom-ref": "pypi/OpenEXR@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gs-madrona",
+      "version": "==0.0.10",
+      "purl": "pkg:pypi/gs-madrona@0.0.10",
+      "bom-ref": "pypi/gs-madrona@==0.0.10"
+    },
+    {
+      "type": "library",
+      "name": "fast_simplification",
+      "version": ">=0.1.12",
+      "purl": "pkg:pypi/fast-simplification@0.1.12",
+      "bom-ref": "pypi/fast_simplification@>=0.1.12"
+    },
+    {
+      "type": "library",
+      "name": "pysplashsurf",
+      "version": "==0.14.*",
+      "purl": "pkg:pypi/pysplashsurf@0.14.*",
+      "bom-ref": "pypi/pysplashsurf@==0.14.*"
+    }
+  ]
+}
